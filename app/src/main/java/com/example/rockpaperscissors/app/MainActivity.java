@@ -6,6 +6,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 /* Calvin and Steven awesome app */
+/* Ready to cover some rocks, smash some scissors, and cut up some paper! */
 public class MainActivity extends ActionBarActivity {
 
     @Override
