@@ -1,5 +1,4 @@
 package com.example.rockpaperscissors.app;
-
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
@@ -15,10 +14,12 @@ public class MainActivity extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        //So this needs to be added for parse
+//        ParseObject parse;
+//        Parse.initialize(this, "0kcY9uzMqnzKvUfOOnKbaXAb92ICEXnC2Uc1DPOU", "UVQglpY3SDI5j9thsaXp5DsdCGWhxokT37eXvUyt");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //So this needs to be added for parse
-        //Parse.initialize(this, "0kcY9uzMqnzKvUfOOnKbaXAb92ICEXnC2Uc1DPOU", "UVQglpY3SDI5j9thsaXp5DsdCGWhxokT37eXvUyt");
+
 
     }
 
