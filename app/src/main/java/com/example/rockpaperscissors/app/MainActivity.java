@@ -1,11 +1,15 @@
 package com.example.rockpaperscissors.app;
 
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 
+
 /* Calvin and Steven awesome app */
+/*import statements that won't stay*/
+/*import com.parse.Parse;
+import com.parse.ParseAnalytics;*/
 /* Ready to cover some rocks, smash some scissors, and cut up some paper! */
 public class MainActivity extends ActionBarActivity {
 
@@ -13,6 +17,9 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //So this needs to be added for parse
+        //Parse.initialize(this, "0kcY9uzMqnzKvUfOOnKbaXAb92ICEXnC2Uc1DPOU", "UVQglpY3SDI5j9thsaXp5DsdCGWhxokT37eXvUyt");
+
     }
 
 
